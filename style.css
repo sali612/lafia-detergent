@@ -1,0 +1,222 @@
+/* Style général de la page */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f7ff;
+    color: #333333;
+}
+
+/* En-tête du site */
+header {
+    background-color: #0066cc;
+    color: white;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+header h1 {
+    font-size: 38px;
+    margin: 0;
+}
+
+header p {
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+/* Menu de navigation */
+nav {
+    background-color: #004c99;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #b3dcff;
+}
+
+/* Contenu principal */
+main {
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Section d'accueil */
+.accueil {
+    background-color: white;
+    text-align: center;
+    padding: 50px 20px;
+    border-radius: 12px;
+    margin-top: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.accueil h2 {
+    color: #0066cc;
+    font-size: 30px;
+}
+
+.accueil p {
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+/* Bouton de découverte */
+.bouton {
+    display: inline-block;
+    background-color: #0066cc;
+    color: white;
+    text-decoration: none;
+    padding: 13px 25px;
+    border-radius: 6px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.bouton:hover {
+    background-color: #004c99;
+}
+
+/* Section des avantages */
+.avantages {
+    text-align: center;
+    padding: 35px 0;
+}
+
+.avantages h2 {
+    color: #0066cc;
+}
+
+/* Organisation des cartes */
+.cartes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+/* Chaque carte */
+.carte {
+    background-color: white;
+    width: 260px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    box-sizing: border-box;
+}
+
+.carte h3 {
+    color: #0066cc;
+}
+
+.carte p {
+    line-height: 1.6;
+}
+
+/* Pied de page */
+footer {
+    background-color: #004c99;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+/* Adaptation aux petits écrans */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 30px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 8px;
+    }
+
+    .accueil h2 {
+        font-size: 24px;
+    }
+
+    .carte {
+        width: 100%;
+    }
+}
+.photo-produit {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+/* Présentation des produits Lafia */
+#produits {
+    padding: 40px 20px;
+}
+
+#produits h2 {
+    color: #064b8f;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.produit {
+    background-color: white;
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 70, 140, 0.12);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Petit effet au passage de la souris */
+.produit:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 70, 140, 0.2);
+}
+
+.produit h3 {
+    color: #064b8f;
+    font-size: 22px;
+}
+
+.photo-produit {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.produit p {
+    line-height: 1.7;
+}
+.bouton-whatsapp {
+    display: inline-block;
+    background-color: #168b4b;
+    color: white;
+    padding: 12px 20px;
+    margin-top: 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.bouton-whatsapp:hover {
+    background-color: #106b39;
+}
